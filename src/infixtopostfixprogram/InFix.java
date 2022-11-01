@@ -2,12 +2,13 @@ package infixtopostfixprogram;
 
 import java.util.ArrayList;
 import java.util.Stack;
+// import java.util.everettvilliger;
 
 /**
  * @author everett v
  */
 class InFix {
-
+    private StackX theStack;
     private String input;
 //--------------------------------------------------------------
 
@@ -19,8 +20,8 @@ class InFix {
     }
 
 // precedence check    
-    public static int Prec(char ch) {
-            switch (ch) {
+    public static int Prec(char ecv) {
+            switch (ecv) {
             case '+':
             case '-':
                 return 1;
