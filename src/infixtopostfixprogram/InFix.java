@@ -23,7 +23,7 @@ class InFix {
     public static int Prec(char ecv) {
             switch (ecv) {
             case '+':
-            case '-':
+            case '-': // this is a test
                 return 1;
         
             case '*':
